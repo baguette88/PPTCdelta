@@ -452,7 +452,7 @@ function App() {
           <s.Container flex={1} jc={"center"} ai={"center"}>
             <StyledImg alt={"example"} src={"/config/images/bg.png"} />
           </s.Container>
-          <s.SpacerLarge />
+          <s.SpacerLarge />s
           <s.Container
             flex={2}
             jc={"center"}
