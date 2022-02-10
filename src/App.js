@@ -446,11 +446,11 @@ function App() {
         style={{ padding: 24, backgroundColor: "var(--primary)" }}
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : null}
       >
-        <StyledLogo alt={"logo"} src={"/config/images/petrentals.png"} />
+        <StyledLogo alt={"logo"} src={"/config/images/roadmap.png"} />
         <s.SpacerSmall />
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
-            <StyledImg alt={"example"} src={"/config/images/roadmap.png"} />
+            <StyledImg alt={"example"} src={"/config/images/bg.png"} />
           </s.Container>
           <s.SpacerLarge />
           <s.Container
