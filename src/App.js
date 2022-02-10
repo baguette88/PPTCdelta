@@ -102,20 +102,20 @@ function App() {
   const [feedback, setFeedback] = useState(`Click buy to mint your NFT.`);
   const [mintAmount, setMintAmount] = useState(1);
   const [CONFIG, SET_CONFIG] = useState({
-    CONTRACT_ADDRESS: "",
-    SCAN_LINK: "",
+    CONTRACT_ADDRESS: "",///
+    SCAN_LINK: "",///
     NETWORK: {
-      NAME: "",
-      SYMBOL: "",
-      ID: 0,
+      NAME: "Ethereum",
+      SYMBOL: "ETH",
+      ID: 1,
     },
-    NFT_NAME: "",
-    SYMBOL: "",
+    NFT_NAME: "PPTC",
+    SYMBOL: "PPTC",
     MAX_SUPPLY: 1,
     WEI_COST: 0,
     DISPLAY_COST: 0,
     GAS_LIMIT: 0,
-    MARKETPLACE: "",
+    MARKETPLACE: "",///
     MARKETPLACE_LINK: "",
     SHOW_BACKGROUND: false,
   });
@@ -440,7 +440,7 @@ function App() {
         
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
-            <StyledImg alt={"example"} src={"/config/images/bg.png"} />
+            <StyledImg alt={"example"} src={"/config/images/sealwtanks.png"} />
           </s.Container>
           <s.SpacerLarge />
           <s.Container
