@@ -407,7 +407,8 @@ function App() {
             <s.SpacerMedium />
 
                   <s.SpacerMedium />
-             <s.Container
+                  
+             {/* <s.Container
             flex={2}
             jc={"center"}
             ai={"center"}
@@ -421,23 +422,10 @@ function App() {
             
             >         Roadmap
             
-            1	Mint out!
-            2	Invest 90-95% of ETH raised into Pixlverse assets
-            3	Engage yield generating assets
-            4	Open NFT launchpad
-            5	Begin offering WL to PPTC owners
-            6	Set up Pixl Pet Farming
-            7	Fund PIXL/ETH LP
-            8	Open discounted Pixl Pet rental/purchases to PPTC owners
-            9	Open Pixl Pet Swapmeet to PPTC owners
-            10	Open boosted LP to PPTC owners
-            The Team
-            
-  
-            
+         
            
             
-            </s.Container>
+            </s.Container> */}
             <s.SpacerMedium />
        
         <s.Container
@@ -448,6 +436,8 @@ function App() {
       >
         <StyledLogo alt={"logo"} src={"/config/images/roadmap.png"} />
         <s.SpacerSmall />
+
+        
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
             <StyledImg alt={"example"} src={"/config/images/bg.png"} />
