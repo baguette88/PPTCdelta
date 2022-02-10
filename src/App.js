@@ -544,7 +544,7 @@ Many others, you’ll have to wait and see
                 <s.SpacerSmall />
                 <StyledImg
               alt={"example"}
-              src={"/config/images/team.png"}
+              src={"/config/images/eggs.png"}
               style={{ transform: "scaleX(1)" }}
             />
 
@@ -696,7 +696,7 @@ Many others, you’ll have to wait and see
               color: "var(--primary-text)",
             }}
           >
-      
+       Links
           </s.TextDescription>
         </s.Container>
       </s.Container>
