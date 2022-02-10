@@ -452,7 +452,7 @@ function App() {
           <s.Container flex={1} jc={"center"} ai={"center"}>
             <StyledImg alt={"example"} src={"/config/images/bg.png"} />
           </s.Container>
-          <s.SpacerLarge />s
+          <s.SpacerLarge />
           <s.Container
             flex={2}
             jc={"center"}
@@ -660,31 +660,34 @@ Many others, you’ll have to wait and see
         <s.TextTitle
                   style={{ textAlign: "center", color: "var(--primary-text)" }}
                 >
-                  TEAM
+                 
+                  <StyledLogo alt={"logo"} src={"/config/images/team.png"} />
                 </s.TextTitle>
           <s.TextDescription
             style={{
               textAlign: "center",
               color: "var(--primary-text)",
             }}
+            
           >
+                 TEAM:
                   Baguette
-            Founder - Dev
+            Founder - Dev,
             
             24pxunofficial
-            Numbers guy
+            Numbers guy,
             
             Poaphodler
-            Artist
+            Artist,
             
             Joytide
-            Advisor, Relationship Manager
+            Advisor, Relationship Manager,
             
             Willy & Poobah
-            Memelords
+            Memelords,
             
             Defijunkie
-            Marketings
+            Marketing
           </s.TextDescription>
           <s.SpacerSmall />
           <s.TextDescription
