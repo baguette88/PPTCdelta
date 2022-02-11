@@ -682,6 +682,7 @@ Many others, you’ll have to wait and see
             Marketing
           </s.TextDescription>
           <s.SpacerSmall />
+          <StyledLogo alt={"logo"} src={"/config/images/LP.png"} />
           <s.TextDescription
             style={{
               textAlign: "center",
