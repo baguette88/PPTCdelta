@@ -105,7 +105,7 @@ function App() {
     CONTRACT_ADDRESS: "0x1F6b91e5683130A0Fe7E36F3A27eE2E6DE334888",///
     SCAN_LINK: "https://rinkeby.etherscan.io/address/0x1F6b91e5683130A0Fe7E36F3A27eE2E6DE334888",///
     NETWORK: {
-      NAME: "Rinkeby",
+      NAME: "rinkeby",
       SYMBOL: "ETH",
       ID: 4,
     },
