@@ -102,12 +102,12 @@ function App() {
   const [feedback, setFeedback] = useState(`Click buy to mint your NFT.`);
   const [mintAmount, setMintAmount] = useState(1);
   const [CONFIG, SET_CONFIG] = useState({
-    CONTRACT_ADDRESS: "",///
-    SCAN_LINK: "",///
+    CONTRACT_ADDRESS: "0x1F6b91e5683130A0Fe7E36F3A27eE2E6DE334888",///
+    SCAN_LINK: "https://rinkeby.etherscan.io/address/0x1F6b91e5683130A0Fe7E36F3A27eE2E6DE334888",///
     NETWORK: {
-      NAME: "Ethereum",
+      NAME: "Rinkeby",
       SYMBOL: "ETH",
-      ID: 1,
+      ID: 4,
     },
     NFT_NAME: "PPTC",
     SYMBOL: "PPTC",
