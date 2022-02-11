@@ -285,6 +285,8 @@ function App() {
                       Connect to the {CONFIG.NETWORK.NAME} network
                     </s.TextDescription>
                     <s.SpacerSmall />
+                    <StyledLogo alt={"logo"} src={"/config/images/LPstand.png"} />
+                    <s.SpacerSmall />
                     <StyledButton
                       onClick={(e) => {
                         e.preventDefault();
@@ -540,7 +542,7 @@ Many others, you’ll have to wait and see
               style={{ transform: "scaleX(1)" }}
             />
 
-
+  <StyledLogo alt={"logo"} src={"/config/images/LPstand.png"} />
                 <s.SpacerSmall />
                 {blockchain.account === "" ||
                 blockchain.smartContract === null ? (
@@ -565,6 +567,8 @@ Many others, you’ll have to wait and see
                     </StyledButton>
                     {blockchain.errorMsg !== "" ? (
                       <>
+                        <s.SpacerSmall />
+                      
                         <s.SpacerSmall />
                         <s.TextDescription
                           style={{
