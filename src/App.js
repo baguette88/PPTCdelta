@@ -431,10 +431,12 @@ function App() {
         <s.Container
         flex={1}
         ai={"center"}
-        style={{ padding: 24, backgroundColor: "var(--primary)" }}
-        image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : null}
+        style={{ padding: 2, backgroundColor: "var(--primary)" }}
+        // image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : null}
       >
-        <StyledLogo alt={"logo"} src={"/config/images/roadmap.png"} />
+        <StyledLogo
+         alt={"logo"} src={"/config/images/roadmap.png"
+         } />
         <s.SpacerSmall />
 
         
