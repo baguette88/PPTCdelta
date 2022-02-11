@@ -272,7 +272,7 @@ function App() {
                 >
                   Excluding gas fees.
                 </s.TextDescription>
-                <s.SpacerSmall />
+                
                 {blockchain.account === "" ||
                 blockchain.smartContract === null ? (
                   <s.Container ai={"center"} jc={"center"}>
@@ -284,7 +284,7 @@ function App() {
                     >
                       Connect to the {CONFIG.NETWORK.NAME} network
                     </s.TextDescription>
-                    <s.SpacerSmall />
+                    {/* <s.SpacerSmall /> */}
                     <StyledLogo alt={"logo"} src={"/config/images/LPstand.png"} />
                     <s.SpacerSmall />
                     <StyledButton
