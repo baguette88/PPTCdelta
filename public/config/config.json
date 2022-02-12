@@ -1,18 +1,18 @@
 {
-  "CONTRACT_ADDRESS": "0x1F6b91e5683130A0Fe7E36F3A27eE2E6DE334888",
-  "SCAN_LINK": "https://rinkeby.etherscan.io//token/0x1F6b91e5683130A0Fe7E36F3A27eE2E6DE334888",
+  "CONTRACT_ADDRESS": "0x6d9df08e8444ec59333d77fb79dc25e567513f78",
+  "SCAN_LINK": "https://rinkeby.etherscan.io/address/0x6d9df08e8444ec59333d77fb79dc25e567513f78",
   "NETWORK": {
     "NAME": "rinkeby",
     "SYMBOL": "ETH",
     "ID": 4
   },
-  "NFT_NAME": "PPTC",
+  "NFT_NAME": "PPTCe",
   "SYMBOL": "PPTC",
   "MAX_SUPPLY": 3000,
   "WEI_COST": 50000000000000000,
   "DISPLAY_COST": 0.05,
   "GAS_LIMIT": 3000000,
   "MARKETPLACE": "Opeansea",
-  "MARKETPLACE_LINK": "https://opensea.io/collection/pp-trading-company",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/PPTCe",
   "SHOW_BACKGROUND": true
 }

@@ -121,21 +121,21 @@ function App() {
   const [feedback, setFeedback] = useState(`Click buy to mint your NFT.`);
   const [mintAmount, setMintAmount] = useState(1);
   const [CONFIG, SET_CONFIG] = useState({
-    CONTRACT_ADDRESS: "0x1F6b91e5683130A0Fe7E36F3A27eE2E6DE334888",///
-    SCAN_LINK: "https://rinkeby.etherscan.io/address/0x1F6b91e5683130A0Fe7E36F3A27eE2E6DE334888",///
+    CONTRACT_ADDRESS: "0x6d9df08e8444ec59333d77fb79dc25e567513f78",///
+    SCAN_LINK: "https://rinkeby.etherscan.io/address/0x6d9df08e8444ec59333d77fb79dc25e567513f78",///
     NETWORK: {
       NAME: "rinkeby",
       SYMBOL: "ETH",
       ID: 4,
     },
-    NFT_NAME: "PPTC",
+    NFT_NAME: "PPTCe",
     SYMBOL: "PPTC",
     MAX_SUPPLY: 1,
     WEI_COST: 5000000000000000000,
     DISPLAY_COST: 0,
     GAS_LIMIT: 3000000,
-    MARKETPLACE: "",///
-    MARKETPLACE_LINK: "",
+    MARKETPLACE: "OpenSea",///
+    MARKETPLACE_LINK: "https://opensea.io/collection/PPTCe",
     SHOW_BACKGROUND: true,
   });
 
@@ -149,8 +149,8 @@ function App() {
     setFeedback(`Minting your ${CONFIG.NFT_NAME}...`);
     setClaimingNft(true);
     blockchain.smartContract.methods
-      // .mint(mintAmount)
-      .mint(blockchain.account, mintAmount) //ERROR FIX
+      .mint(mintAmount)
+      // .mint(blockchain.account, mintAmount) //ERROR FIX
       .send({
         gasLimit: String(totalGasLimit),
         to: CONFIG.CONTRACT_ADDRESS,
