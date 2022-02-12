@@ -30,6 +30,9 @@ export const StyledButton = styled.button`
 
 export const StyledBig = styled.img`
   width: 350px;
+  @media (min-width: 1000px) {
+    width: 950px;
+  }
   @media (min-width: 767px) {
     width: 650px;
   }
@@ -457,7 +460,9 @@ function App() {
          alt={"logo"} src={"/config/images/roadmap.png"
          } />
         <s.SpacerSmall />
-
+        <StyledBig
+         alt={"logo"} src={"/config/images/vision1080.png"
+         } />
         
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
@@ -519,30 +524,17 @@ function App() {
                 <s.TextTitle
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  VISION
+                  Mint a PPTC Member's Pass for .05 ETH! (Bowtie not included)
                 </s.TextTitle>
                 <s.SpacerXSmall />
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  
-
-We at the Pixl Pass Trading Company (PPTC) aim to provide a low-cost entry point into The Pixlverse. 
-
-Inspired by the infamous and wildly successful Founders Pass (from The Pixlverse team), we present you with the Pixl Pass, a membership based NFT which gives you exposure to the highly sought-after assets of The Pixlverse.
-
-If you’re priced out of the Founders Pass, Pixel Pets, or other yield baring Pixlverse NFTs, then the Pixl Pass NFT (or PPTC for short) will provide you with an easy and affordable way to be involved in The Pixlverse. 
-
-In short, the PP Trading Co. will acquire Pixlverse related assets with 90-95% of the funds raised at mint. These assets will provide value to the PPTC Treasury, which in turn will offer services back to its members. One of the primary objectives is to build a stable of Pixl Pets, to be offered for rent to our members at a discounted rate.
-
-For a detailed explanation of how the PPTC works, and its benefits, please head to our Primer.
-
-PPTC NFTs
-
-Pictures of the four NFTs
-
-Benefits
-To PPTC holders:
+                
+                
+                <s.SpacerSmall />
+                PPTC Member Benefits:
+                <s.SpacerSmall />
 Whitelists and giveaways
 Discounted Pixl Pet rental
 Discounted Pixl Pet purchases
@@ -552,14 +544,7 @@ Many others, you’ll have to wait and see
 
 
                 </s.TextDescription>
-                <s.SpacerSmall />
-                <StyledBig alt={"logo"} src={"/config/images/vision1080.png"} />
-                <StyledImg
-              alt={"example"}
-              src={"/config/images/eggs.png"}
-              style={{ transform: "scaleX(1)" }}
-            />
-
+ 
   <StyledLogo alt={"logo"} src={"/config/images/LPstand.png"} />
                 <s.SpacerSmall />
                 {blockchain.account === "" ||
@@ -571,7 +556,7 @@ Many others, you’ll have to wait and see
                         color: "var(--accent-text)",
                       }}
                     >
-                     Thank you for your support!
+                     The PetStand is always Open!
                     </s.TextDescription>
                     <s.SpacerSmall />
                     <StyledButton
@@ -675,7 +660,7 @@ Many others, you’ll have to wait and see
                   style={{ textAlign: "center", color: "var(--primary-text)" }}
                 >
                  
-                  <StyledLogo alt={"logo"} src={"/config/images/team.png"} />
+                  <StyledBig alt={"logo"} src={"/config/images/team.png"} />
                 </s.TextTitle>
           <s.TextDescription
             style={{
