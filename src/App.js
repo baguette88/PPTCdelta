@@ -34,13 +34,13 @@ export const StyledBig = styled.img`
     width: 950px;
   }
   @media (min-width: 767px) {
-    width: 650px;
+    width: 750px;
   }
   @media (min-width: 600px) {
     width: 600px;
   }
   @media (min-width: 400px) {
-    width: 350px;
+    width: 600px;
   }
   transition: width 0.5s;
   transition: height 0.5s;
@@ -133,7 +133,7 @@ function App() {
     MAX_SUPPLY: 1,
     WEI_COST: 5000000000000000000,
     DISPLAY_COST: 0,
-    GAS_LIMIT: 50000,
+    GAS_LIMIT: 3000000,
     MARKETPLACE: "",///
     MARKETPLACE_LINK: "",
     SHOW_BACKGROUND: true,
@@ -454,10 +454,14 @@ function App() {
         flex={1}
         ai={"center"}
         style={{ padding: 2, backgroundColor: "var(--primary)" }}
-        // image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : null}
+        //  image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : null}
       >
         <StyledBig
          alt={"logo"} src={"/config/images/roadmap.png"
+         } />
+               <s.SpacerSmall />
+        <StyledBig
+         alt={"logo"} src={"/config/images/ppbreeding.png"
          } />
         <s.SpacerSmall />
         <StyledBig
@@ -696,7 +700,10 @@ Many others, you’ll have to wait and see
               color: "var(--primary-text)",
             }}
           >
-       Links
+       Links 
+       <StyledLink target={"_blank"} href={CONFIG.MARKETPLACE_LINK}>
+                  {CONFIG.MARKETPLACE}
+                </StyledLink>
           </s.TextDescription>
         </s.Container>
       </s.Container>
