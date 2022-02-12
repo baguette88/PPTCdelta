@@ -28,6 +28,22 @@ export const StyledButton = styled.button`
   }
 `;
 
+export const StyledBig = styled.img`
+  width: 350px;
+  @media (min-width: 767px) {
+    width: 650px;
+  }
+  @media (min-width: 600px) {
+    width: 600px;
+  }
+  @media (min-width: 400px) {
+    width: 350px;
+  }
+  transition: width 0.5s;
+  transition: height 0.5s;
+`;
+
+
 export const StyledRoundButton = styled.button`
   padding: 10px;
   border-radius: 100%;
@@ -437,7 +453,7 @@ function App() {
         style={{ padding: 2, backgroundColor: "var(--primary)" }}
         // image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : null}
       >
-        <StyledLogo
+        <StyledBig
          alt={"logo"} src={"/config/images/roadmap.png"
          } />
         <s.SpacerSmall />
@@ -537,6 +553,7 @@ Many others, you’ll have to wait and see
 
                 </s.TextDescription>
                 <s.SpacerSmall />
+                <StyledBig alt={"logo"} src={"/config/images/vision1080.png"} />
                 <StyledImg
               alt={"example"}
               src={"/config/images/eggs.png"}
