@@ -131,12 +131,12 @@ function App() {
     NFT_NAME: "PPTC",
     SYMBOL: "PPTC",
     MAX_SUPPLY: 1,
-    WEI_COST: 0,
+    WEI_COST: 5000000000000000000,
     DISPLAY_COST: 0,
-    GAS_LIMIT: 0,
+    GAS_LIMIT: 50000,
     MARKETPLACE: "",///
     MARKETPLACE_LINK: "",
-    SHOW_BACKGROUND: false,
+    SHOW_BACKGROUND: true,
   });
 
   const claimNFTs = () => {
