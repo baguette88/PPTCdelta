@@ -227,11 +227,11 @@ function App() {
       <s.Container
         flex={1}
         ai={"center"}
-        style={{ padding: 24, backgroundColor: "var(--primary)" }}
-        image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : null}
+        style={{ padding: 10, backgroundColor: "var(--primary)" }}
+        image={CONFIG.SHOW_BACKGROUND ? "/config/images/sealtank.png" : null}
       >
         <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
-        <s.SpacerSmall />
+
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
             <StyledImg alt={"example"} src={"/config/images/example.gif"} />
@@ -463,7 +463,7 @@ function App() {
         flex={1}
         ai={"center"}
         style={{ padding: 2, backgroundColor: "var(--primary)" }}
-        //  image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : null}
+          // image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : null}
       >
         <StyledBig
          alt={"logo"} src={"/config/images/roadmap.png"
@@ -476,7 +476,7 @@ function App() {
         <StyledBig
          alt={"logo"} src={"/config/images/vision1080.png"
          } />
-        
+           <s.SpacerSmall />
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
             <StyledImg alt={"example"} src={"/config/images/sealwtanks.png"} />
