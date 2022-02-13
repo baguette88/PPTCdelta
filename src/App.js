@@ -29,28 +29,38 @@ export const StyledButton = styled.button`
 `;
 
 export const StyledBig = styled.img`
-  // width: 300px;
-  @media (min-width: 1000px) {
-    width: 9950px;
-  }
-  @media (min-width: 800px) {
-    width: 790px;
-  }
-  @media (min-width: 767px) {
-    width: 750px;
-  }
-  @media (min-width: 600px) {
-    width: 590px;
-  }
-  @media (min-width: 540px) {
-    width: 500px;
+  width: 300px;
+  
+
+
+
+
+
+  @media (min-width: 350px) {
+    width: 345px;
   }
   @media (min-width: 400px) {
     width: 390px;
   }
-  @media (min-width: 350px) {
-    width: 345px;
+  @media (min-width: 540px) {
+    width: 500px;
   }
+  @media (min-width: 600px) {
+    width: 590px;
+  }
+  @media (min-width: 767px) {
+    width: 750px;
+  }
+  @media (min-width: 800px) {
+    width: 790px;
+  }
+  @media (min-width: 900px) {
+    width: 850px;
+  }
+  @media (min-width: 1000px) {
+    width: 9950px;
+  }
+
   transition: width 0.5s;
   transition: height 0.5s;
 `;
