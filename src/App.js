@@ -29,18 +29,27 @@ export const StyledButton = styled.button`
 `;
 
 export const StyledBig = styled.img`
-  width: 350px;
+  // width: 300px;
   @media (min-width: 1000px) {
-    width: 950px;
+    width: 9950px;
+  }
+  @media (min-width: 800px) {
+    width: 790px;
   }
   @media (min-width: 767px) {
     width: 750px;
   }
   @media (min-width: 600px) {
-    width: 600px;
+    width: 590px;
+  }
+  @media (min-width: 540px) {
+    width: 500px;
   }
   @media (min-width: 400px) {
-    width: 600px;
+    width: 390px;
+  }
+  @media (min-width: 350px) {
+    width: 345px;
   }
   transition: width 0.5s;
   transition: height 0.5s;
@@ -95,7 +104,7 @@ export const StyledLogo = styled.img`
 
 export const StyledImg = styled.img`
   box-shadow: 0px 5px 11px 2px rgba(0, 0, 0, 0.7);
-  border: 4px dashed var(--secondary);
+  border: 4px var(--secondary);
   background-color: var(--accent);
   border-radius: 100%;
   width: 200px;
@@ -236,7 +245,7 @@ function App() {
               backgroundColor: "var(--accent)",
               padding: 24,
               borderRadius: 24,
-              border: "4px dashed var(--secondary)",
+              border: "4px var(--secondary)",
               boxShadow: "0px 5px 11px 2px rgba(0,0,0,0.7)",
             }}
           >
@@ -481,7 +490,7 @@ function App() {
               backgroundColor: "var(--accent)",
               padding: 24,
               borderRadius: 24,
-              border: "4px dashed var(--secondary)",
+              border: "4px var(--secondary)",
               boxShadow: "0px 5px 11px 2px rgba(0,0,0,0.7)",
             }}
           >
@@ -563,7 +572,7 @@ Many others, you’ll have to wait and see
                      The PetStand is always Open!
                     </s.TextDescription>
                     <s.SpacerSmall />
-                    <StyledButton
+                    {/* <StyledButton
                       onClick={(e) => {
                         e.preventDefault();
                         dispatch(connect());
@@ -571,7 +580,7 @@ Many others, you’ll have to wait and see
                       }}
                     >
                       CONNECT
-                    </StyledButton>
+                    </StyledButton> */}
                     {blockchain.errorMsg !== "" ? (
                       <>
                         <s.SpacerSmall />
