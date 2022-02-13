@@ -384,6 +384,8 @@ function App() {
                       >
                         +
                       </StyledRoundButton>
+                      
+{/* <StyledLogo alt={"logo"} src={"/config/images/LPstand.png"} /> */}
                     </s.Container>
                     <s.SpacerSmall />
                     <s.Container ai={"center"} jc={"center"} fd={"row"}>
@@ -396,7 +398,6 @@ function App() {
                         }}
                       >
 
-<StyledLogo alt={"logo"} src={"/config/images/LPstand.png"} />
                         {claimingNft ? "BUSY" : "BUY"}
                       </StyledButton>
                     </s.Container>
