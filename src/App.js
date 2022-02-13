@@ -682,7 +682,7 @@ Many others, you’ll have to wait and see
             }}
             
           >
-                 TEAM:
+                 {/* TEAM:
                   Baguette
             Founder - Dev,
             
@@ -699,7 +699,7 @@ Many others, you’ll have to wait and see
             Memelords,
             
             Defijunkie
-            Marketing
+            Marketing */}
           </s.TextDescription>
           <s.SpacerSmall />
           <StyledLogo alt={"logo"} src={"/config/images/LP.png"} />
@@ -709,7 +709,7 @@ Many others, you’ll have to wait and see
               color: "var(--primary-text)",
             }}
           >
-       Links 
+       {/* Links  */}
        <StyledLink target={"_blank"} href={CONFIG.MARKETPLACE_LINK}>
                   {CONFIG.MARKETPLACE}
                 </StyledLink>
