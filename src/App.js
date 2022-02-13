@@ -33,9 +33,6 @@ export const StyledBig = styled.img`
   
 
 
-
-
-
   @media (min-width: 350px) {
     width: 345px;
   }
@@ -58,7 +55,7 @@ export const StyledBig = styled.img`
     width: 850px;
   }
   @media (min-width: 1000px) {
-    width: 9950px;
+    width: 950px;
   }
 
   transition: width 0.5s;
