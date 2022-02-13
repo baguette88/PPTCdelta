@@ -395,6 +395,8 @@ function App() {
                           getData();
                         }}
                       >
+
+<StyledLogo alt={"logo"} src={"/config/images/LPstand.png"} />
                         {claimingNft ? "BUSY" : "BUY"}
                       </StyledButton>
                     </s.Container>
