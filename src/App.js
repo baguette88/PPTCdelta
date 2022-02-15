@@ -479,9 +479,7 @@ function App() {
         style={{ padding: 2, backgroundColor: "var(--primary)" }}
           // image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : null}
       >
-        <StyledBig
-         alt={"logo"} src={"/config/images/roadmap.png"
-         } />
+    
                <s.SpacerSmall />
         <StyledBig
          alt={"logo"} src={"/config/images/ppbreeding.png"
@@ -491,8 +489,18 @@ function App() {
          alt={"logo"} src={"/config/images/vision1080.png"
          } />
            <s.SpacerSmall />
-  
+           <StyledBig
+         alt={"logo"} src={"/config/images/benefits.png"
+         } />
+           <s.SpacerSmall />
+           <StyledBig
+         alt={"logo"} src={"/config/images/roadmap.png"
+         } />
         <s.SpacerMedium />
+        <StyledBig
+         alt={"logo"} src={"/config/images/allocation.png"
+         } />
+           <s.SpacerSmall />
         <s.Container jc={"center"} ai={"center"} style={{ width: "70%" }}>
         <s.TextTitle
                   style={{ textAlign: "center", color: "var(--primary-text)" }}
