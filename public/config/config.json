@@ -15,6 +15,6 @@
   "GAS_LIMIT": 3000000,
   "MARKETPLACE": "Opeansea",
   //"MARKETPLACE_LINK": "https://opensea.io/collection/PPTCe", (Rinkeby)
-  "MARKETPLACE_LINK": "https://opensea.io/collection/pixl-pass-trading-company-members-pass,
+  "MARKETPLACE_LINK": "https://opensea.io/collection/pixl-pass-trading-company-members-pass",
   "SHOW_BACKGROUND": true
 }
