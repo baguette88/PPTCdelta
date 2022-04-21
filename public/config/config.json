@@ -1,18 +1,20 @@
 {
-  "CONTRACT_ADDRESS": "0x6d9df08e8444ec59333d77fb79dc25e567513f78",
-  "SCAN_LINK": "https://rinkeby.etherscan.io/address/0x6d9df08e8444ec59333d77fb79dc25e567513f78",
+  //"CONTRACT_ADDRESS": "0x6d9df08e8444ec59333d77fb79dc25e567513f78", (Rinkeby testnet)
+   "CONTRACT_ADDRESS": "0xf55e7D11f04Fc0d624F48A3d11d18632BE36850A",
+  "SCAN_LINK": "https://etherscan.io/address/0xf55e7d11f04fc0d624f48a3d11d18632be36850a",
   "NETWORK": {
-    "NAME": "rinkeby",
+    "NAME": "ethereum",
     "SYMBOL": "ETH",
-    "ID": 4
+    "ID": 1
   },
-  "NFT_NAME": "PPTCe",
+  "NFT_NAME": "PPTC",
   "SYMBOL": "PPTC",
   "MAX_SUPPLY": 3000,
   "WEI_COST": 50000000000000000,
   "DISPLAY_COST": 0.05,
   "GAS_LIMIT": 3000000,
   "MARKETPLACE": "Opeansea",
-  "MARKETPLACE_LINK": "https://opensea.io/collection/PPTCe",
+  //"MARKETPLACE_LINK": "https://opensea.io/collection/PPTCe", (Rinkeby)
+  "MARKETPLACE_LINK": "https://opensea.io/collection/pixl-pass-trading-company-members-pass,
   "SHOW_BACKGROUND": true
 }
