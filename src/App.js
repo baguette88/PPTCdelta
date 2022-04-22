@@ -140,7 +140,7 @@ function App() {
     CONTRACT_ADDRESS: "0xf55e7D11f04Fc0d624F48A3d11d18632BE36850A",///
     SCAN_LINK: "https://etherscan.io/address/0xf55e7d11f04fc0d624f48a3d11d18632be36850a",///
     NETWORK: {
-      NAME: "ethereum",
+      NAME: "Ethereum",
       SYMBOL: "ETH",
       ID: 1,
     },
