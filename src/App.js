@@ -149,7 +149,7 @@ function App() {
     MAX_SUPPLY: 3000,
     WEI_COST: 5000000000000000000,
     DISPLAY_COST: .05,
-    GAS_LIMIT: 3000000,
+    GAS_LIMIT: 1000000,
     MARKETPLACE: "OpenSea",///
     MARKETPLACE_LINK: "https://opensea.io/collection/pixl-pass-trading-company-members-pass",
     SHOW_BACKGROUND: true,
