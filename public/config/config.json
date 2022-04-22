@@ -12,7 +12,7 @@
   "MAX_SUPPLY": 3000,
   "WEI_COST": 50000000000000000,
   "DISPLAY_COST": 0.05,
-  "GAS_LIMIT": 3000000,
+  "GAS_LIMIT": 30000,
   "MARKETPLACE": "Opeansea",
   "MARKETPLACE_LINK": "https://opensea.io/collection/pixl-pass-trading-company-members-pass",
   "SHOW_BACKGROUND": true
