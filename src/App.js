@@ -150,7 +150,7 @@ function App() {
     MAX_SUPPLY: 3000,
     WEI_COST: 5000000000000000000,
     DISPLAY_COST: .05,
-    GAS_LIMIT: 35000,
+    GAS_LIMIT: 35000, // LIMIT SET FOR FRONT-END
     MARKETPLACE: "OpenSea",///
     MARKETPLACE_LINK: "https://opensea.io/collection/pixl-pass-trading-company-members-pass",
     SHOW_BACKGROUND: true,
@@ -199,8 +199,8 @@ function App() {
 
   const incrementMintAmount = () => {
     let newMintAmount = mintAmount + 1;
-    if (newMintAmount > 10) {
-      newMintAmount = 10;
+    if (newMintAmount > 5) {
+      newMintAmount = 5;
     }
     setMintAmount(newMintAmount);
   };
